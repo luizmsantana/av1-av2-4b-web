@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>GameZone - Catálogo</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+ <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <nav class="navbar navbar-expand-md">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">Game<span>Zone</span></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#menu" aria-controls="menu" aria-expanded="false" aria-label="Abrir menu">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="menu">
+          <ul class="navbar-nav">
+            <li class="nav-item"><a class="nav-link" href="index.html">Início</a></li>
+            <li class="nav-item"><a class="nav-link active" aria-current="page" href="catalogo.html">Catálogo</a></li>
+            <li class="nav-item"><a class="nav-link" href="ranking.html">Ranking</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="page-title">
+      <h1>Catálogo de jogos</h1>
+      <p>Clique em “Ver detalhes” para saber mais sobre cada jogo.</p>
+    </section>
+
+    <section class="row g-4" aria-label="Lista de jogos">
+      <div class="col-md-6 col-lg-4">
+        <article class="card game-card h-100">
+          <div class="card-body p-4 d-flex flex-column">
+            <h2 class="h5 card-title">Minecraft</h2>
+            <div><span class="badge-genero">Sandbox</span></div>
+            <p class="card-text mt-3">Construa e explore mundos infinitos feitos de blocos.</p>
+            <div class="mt-auto">
+              <button class="btn btn-contorno btn-sm btn-detalhes" type="button"
+                      data-alvo="detalhes-minecraft" aria-expanded="false">Ver detalhes</button>
+              <div id="detalhes-minecraft" class="detalhes-extra">Lançado em 2011 pela Mojang. Tem modo sobrevivência e modo criativo, e dá para jogar sozinho ou com amigos.</div>
+            </div>
+          </div>
+        </article>
+      </div>
+
+      <div class="col-md-6 col-lg-4">
+        <article class="card game-card h-100">
+          <div class="card-body p-4 d-flex flex-column">
+            <h2 class="h5 card-title">Roblox</h2>
+            <div><span class="badge-genero">Plataforma de jogos</span></div>
+            <p class="card-text mt-3">Jogue e crie jogos feitos pela comunidade.</p>
+            <div class="mt-auto">
+              <button class="btn btn-contorno btn-sm btn-detalhes" type="button"
+                      data-alvo="detalhes-roblox" aria-expanded="false">Ver detalhes</button>
+              <div id="detalhes-roblox" class="detalhes-extra">Lançado em 2006. Os próprios jogadores criam os jogos usando o Roblox Studio.</div>
+            </div>
+          </div>
+        </article>
+      </div>
+
+      <div class="col-md-6 col-lg-4">
+        <article class="card game-card h-100">
+          <div class="card-body p-4 d-flex flex-column">
+            <h2 class="h5 card-title">Fortnite</h2>
+            <div><span class="badge-genero">Battle Royale</span></div>
+            <p class="card-text mt-3">Sobreviva contra outros jogadores e seja o último de pé.</p>
+            <div class="mt-auto">
+              <button class="btn btn-contorno btn-sm btn-detalhes" type="button"
+                      data-alvo="detalhes-fortnite" aria-expanded="false">Ver detalhes</button>
+              <div id="detalhes-fortnite" class="detalhes-extra">Lançado em 2017 pela Epic Games. Além do Battle Royale, tem modos de construção e criativo.</div>
+            </div>
+          </div>
+        </article>
+      </div>
+
+      <div class="col-md-6 col-lg-4">
+        <article class="card game-card h-100">
+          <div class="card-body p-4 d-flex flex-column">
+            <h2 class="h5 card-title">Rocket League</h2>
+            <div><span class="badge-genero">Esporte / Corrida</span></div>
+            <p class="card-text mt-3">Futebol com carros movidos a foguete.</p>
+            <div class="mt-auto">
+              <button class="btn btn-contorno btn-sm btn-detalhes" type="button"
+                      data-alvo="detalhes-rocket-league" aria-expanded="false">Ver detalhes</button>
+              <div id="detalhes-rocket-league" class="detalhes-extra">Lançado em 2015 pela Psyonix. As partidas são rápidas, em times de 1 a 4 jogadores.</div>
+            </div>
+          </div>
+        </article>
+      </div>
+
+      <div class="col-md-6 col-lg-4">
+        <article class="card game-card h-100">
+          <div class="card-body p-4 d-flex flex-column">
+            <h2 class="h5 card-title">Stardew Valley</h2>
+            <div><span class="badge-genero">Simulação / Fazenda</span></div>
+            <p class="card-text mt-3">Cuide de uma fazenda, faça amigos e viva no campo.</p>
+            <div class="mt-auto">
+              <button class="btn btn-contorno btn-sm btn-detalhes" type="button"
+                      data-alvo="detalhes-stardew-valley" aria-expanded="false">Ver detalhes</button>
+              <div id="detalhes-stardew-valley" class="detalhes-extra">Lançado em 2016, criado por uma única pessoa (Eric Barone). Tem plantio, pesca, mineração e vida social.</div>
+            </div>
+          </div>
+        </article>
+      </div>
+
+      <div class="col-md-6 col-lg-4">
+        <article class="card game-card h-100">
+          <div class="card-body p-4 d-flex flex-column">
+            <h2 class="h5 card-title">Brawlhalla</h2>
+            <div><span class="badge-genero">Luta</span></div>
+            <p class="card-text mt-3">Lutas de plataforma rápidas e divertidas contra outros jogadores.</p>
+            <div class="mt-auto">
+              <button class="btn btn-contorno btn-sm btn-detalhes" type="button"
+                      data-alvo="detalhes-brawlhalla" aria-expanded="false">Ver detalhes</button>
+              <div id="detalhes-brawlhalla" class="detalhes-extra">Lançado em 2017 pela Blue Mammoth Games. Possui dezenas de lendas e é gratuito.</div>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p class="mb-0">Projeto desenvolvido para a AV1 de Desenvolvimento Web</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
